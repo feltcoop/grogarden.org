@@ -1,27 +1,33 @@
 <script lang="ts">
-	import Mreows from '$lib/Mreows.svelte';
+	import Projects from '$lib/Projects.svelte';
 </script>
 
 <main>
-	<h1>@feltcoop/felt-template</h1>
-	<Mreows />
+	<h1>grogarden.org</h1>
+	<img src="/favicon.png" alt="oak acorn" />
+	<Projects />
 </main>
 
 <style>
 	main {
-		text-align: center;
-		padding: 1em;
-		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	img {
+		width: 256px;
+		height: 256px;
+		margin-bottom: 40px;
 	}
 
 	h1 {
-		color: #ff3e00;
-		text-transform: lowercase;
+		color: var(--brown);
+		text-align: center;
 		font-size: 4rem;
 		font-weight: 100;
 		line-height: 1.1;
-		margin: 4rem auto;
-		max-width: 14rem;
+		margin: 40px auto;
 	}
 
 	@media (min-width: 480px) {

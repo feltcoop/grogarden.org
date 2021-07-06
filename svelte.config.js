@@ -7,7 +7,6 @@ export default {
 	kit: {
 		adapter: static_adapter(),
 		target: '#svelte',
-		paths: {base: '/felt-template'}, // for GitHub pages -- delete this line for top-level domains
 		files: {assets: 'src/static'},
 		vite: {
 			ssr: {

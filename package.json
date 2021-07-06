@@ -1,6 +1,7 @@
 {
-  "name": "felt-template",
-  "description": "a static website template with SvelteKit, Gro, and Felt",
+  "name": "grogarden.org",
+  "description": "meta project for the Gro ecosystem",
+  "license": "MIT",
   "version": "0.0.1",
   "type": "module",
   "engines": {
