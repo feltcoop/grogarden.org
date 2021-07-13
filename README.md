@@ -2,6 +2,6 @@
 
 > meta project for the [Gro](https://github.com/feltcoop/gro) ecosystem
 
-## license 🐦
+## license [🐦](https://wikipedia.org/wiki/Free_and_open-source_software)
 
-[MIT](LICENSE)
+public domain ([The Unlicense](license))
