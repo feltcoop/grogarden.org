@@ -4,6 +4,7 @@
 export interface Gro_Project {
 	name: string;
 	repo: string;
+	official: boolean;
 	// TODO maybe also include the configured options?
 	adapters: Gro_Adapter_Name[];
 	plugins: Gro_Plugin_Name[];
