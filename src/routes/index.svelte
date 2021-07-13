@@ -14,6 +14,9 @@
 		<h2>userland projects</h2>
 		<Projects_Table projects={userland_projects} />
 	</section>
+	<footer>
+		<a href="https://github.com/feltcoop/grogarden.org">github.com/feltcoop/grogarden.org</a>
+	</footer>
 </main>
 
 <style>
@@ -44,6 +47,10 @@
 		font-weight: 300;
 		line-height: 1.1;
 		margin: 20px auto;
+	}
+
+	footer {
+		margin-bottom: 40px;
 	}
 
 	@media (min-width: 480px) {
