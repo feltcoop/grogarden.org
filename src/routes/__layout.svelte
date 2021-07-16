@@ -5,6 +5,7 @@
 </script>
 
 <svelte:head>
+	<title>grogarden.org</title>
 	<link rel="icon" href="favicon.png" />
 </svelte:head>
 
