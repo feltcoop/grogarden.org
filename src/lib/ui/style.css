@@ -1,0 +1,24 @@
+:root {
+	/* TODO remove when published in Felt */
+	--brown_hue: 32;
+	--brown: hsl(var(--brown_hue), 100%, 22%);
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+table {
+	text-align: left;
+	width: var(--column_width);
+}
+
+th {
+	font-size: var(--font_size_xl);
+	font-weight: var(--font_weight_2);
+}
+
+th,
+td {
+	padding: var(--spacing_md);
+}
