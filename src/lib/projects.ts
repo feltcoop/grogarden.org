@@ -26,13 +26,6 @@ export const projects: Gro_Project[] = [
 		name: '@feltcoop/felt-template',
 		repo: 'https://github.com/feltcoop/felt-template',
 		official: true,
-		adapters: ['sveltekit_frontend'],
-		plugins: ['sveltekit_frontend'],
-	},
-	{
-		name: '@feltcoop/felt-template-library',
-		repo: 'https://github.com/feltcoop/felt-template-library',
-		official: true,
 		adapters: ['node_library', 'sveltekit_frontend'],
 		plugins: ['sveltekit_frontend'],
 	},
