@@ -5,19 +5,17 @@
 	export let projects: Gro_Project[];
 </script>
 
-<section>
-	<table>
-		<thead>
-			<tr>
-				<th>name</th>
-				<th>adapters</th>
-				<th>plugins</th>
-			</tr>
-		</thead>
-		<tbody>
-			{#each projects as project (project.name)}
-				<Project_Table_Item {project} />
-			{/each}
-		</tbody>
-	</table>
-</section>
+<table>
+	<thead>
+		<tr>
+			<th>name</th>
+			<th>adapters</th>
+			<th>plugins</th>
+		</tr>
+	</thead>
+	<tbody>
+		{#each projects as project (project.name)}
+			<Project_Table_Item {project} />
+		{/each}
+	</tbody>
+</table>

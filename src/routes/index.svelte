@@ -4,8 +4,10 @@
 </script>
 
 <main>
-	<h1>grogarden.org</h1>
-	<img src="/favicon.png" alt="oak acorn" />
+	<header>
+		<h1>grogarden.org</h1>
+		<img src="/favicon.png" alt="oak acorn" />
+	</header>
 	<section>
 		<h2>official projects</h2>
 		<Projects_Table projects={official_projects} />
@@ -20,16 +22,16 @@
 </main>
 
 <style>
-	main {
+	header {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		margin-bottom: var(--spacing_xl2);
 	}
 
 	img {
 		width: 256px;
 		height: 256px;
-		margin-bottom: 40px;
 	}
 
 	h1 {
@@ -38,7 +40,8 @@
 		font-size: 64px;
 		font-weight: 300;
 		line-height: 1.1;
-		margin: 40px auto;
+		/* TODO upstream to Felt -- also, padding seems better than margin for headings? */
+		padding: var(--spacing_xl2) 0;
 	}
 
 	h2 {
@@ -46,16 +49,13 @@
 		font-size: 48px;
 		font-weight: 300;
 		line-height: 1.1;
-		margin: 20px auto;
+		padding: var(--spacing_lg) 0;
 	}
 
 	footer {
-		margin-bottom: 40px;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			max-width: none;
-		}
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: var(--spacing_xl2) auto;
 	}
 </style>
