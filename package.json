@@ -2,6 +2,14 @@
   "name": "grogarden.org",
   "description": "meta project for the Gro ecosystem",
   "license": "Unlicense",
+  "homepage": "https://www.grogarden.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feltcoop/grogarden.org.git"
+  },
+  "bugs": {
+    "url": "https://github.com/feltcoop/gro/issues"
+  },
   "version": "0.0.1",
   "type": "module",
   "engines": {

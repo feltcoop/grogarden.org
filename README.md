@@ -1,4 +1,4 @@
-# [grogarden.org](https://grogarden.org)
+# [grogarden.org](https://www.grogarden.org)
 
 > meta project for the [Gro](https://github.com/feltcoop/gro) ecosystem
 
