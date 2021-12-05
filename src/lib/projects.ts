@@ -40,7 +40,7 @@ export const projects: Gro_Project[] = [
 		name: '@ryanatkn/mirror-twin-gro',
 		repo: 'https://github.com/ryanatkn/mirror-twin-gro',
 		official: false,
-		adapters: ['gro_frontend'],
+		adapters: ['sveltekit_frontend'],
 		plugins: [],
 	},
 	{
@@ -54,7 +54,7 @@ export const projects: Gro_Project[] = [
 		name: '@ryanatkn/corpus-activity-streams',
 		repo: 'https://github.com/ryanatkn/corpus-activity-streams',
 		official: false,
-		adapters: ['gro_frontend'],
+		adapters: ['sveltekit_frontend'],
 		plugins: [],
 	},
 	{

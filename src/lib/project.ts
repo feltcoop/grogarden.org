@@ -10,10 +10,6 @@ export interface Gro_Project {
 	plugins: Gro_Plugin_Name[];
 }
 
-export type Gro_Adapter_Name =
-	| 'node_library'
-	| 'generic_build'
-	| 'sveltekit_frontend'
-	| 'gro_frontend';
+export type Gro_Adapter_Name = 'node_library' | 'generic_build' | 'sveltekit_frontend';
 
 export type Gro_Plugin_Name = 'api_server' | 'sveltekit_frontend';
