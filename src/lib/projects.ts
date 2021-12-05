@@ -62,7 +62,7 @@ export const projects: Gro_Project[] = [
 		repo: 'https://github.com/ryanatkn/corpus-activity-streams',
 		official: false,
 		adapters: ['sveltekit_frontend'],
-		plugins: [],
+		plugins: ['sveltekit_frontend'],
 	},
 	{
 		name: '@ryanatkn/collisions',
