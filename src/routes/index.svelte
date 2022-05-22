@@ -17,7 +17,7 @@
 		<Projects_Table projects={userland_projects} />
 	</section>
 	<footer>
-		<a href="https://github.com/feltcoop/grogarden.org">github.com/feltcoop/grogarden.org</a>
+		<a href="https://github.com/feltcoop/grogarden.org">🐙🐈/feltcoop/grogarden.org</a>
 	</footer>
 </main>
 
