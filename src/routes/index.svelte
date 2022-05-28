@@ -17,6 +17,18 @@
 			<h2>userland projects</h2>
 			<Projects_Table projects={userland_projects} />
 		</section>
+		<hr />
+		<section>
+			<p>
+				Are you a Gro user with an open source project that you want to share? <a
+					href="https://github.com/feltcoop/grogarden.org/pulls">Open a PR</a
+				>
+				with the data added to
+				<a href="https://github.com/feltcoop/grogarden.org/blob/main/src/lib/projects.ts"
+					>src/lib/projects.ts</a
+				>!
+			</p>
+		</section>
 		<footer>
 			<a href="https://github.com/feltcoop/grogarden.org">🐙🐈/feltcoop/grogarden.org</a>
 		</footer>
