@@ -8,4 +8,4 @@ with the data added to [src/lib/projects.ts](/src/lib/projects.ts)!
 
 ## license [🐦](https://wikipedia.org/wiki/Free_and_open-source_software)
 
-public domain ([The Unlicense](license))
+public domain ⚘ [The Unlicense](license)
