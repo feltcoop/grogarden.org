@@ -10,6 +10,22 @@ export interface Gro_Project {
 	plugins: Gro_Plugin_Name[];
 }
 
-export type Gro_Adapter_Name = 'node_library' | 'generic_build' | 'sveltekit_frontend';
+export type Gro_Adapter_Name = 'node-library' | 'generic-build' | 'sveltekit-frontend';
 
-export type Gro_Plugin_Name = 'api_server' | 'sveltekit_frontend';
+export type Gro_Plugin_Name = 'api-server' | 'sveltekit-frontend';
+
+export const urls = {
+	adapter: {
+		'node-library':
+			'https://github.com/feltcoop/gro/blob/main/src/adapt/gro-adapter-node-library.ts',
+		'generic-build':
+			'https://github.com/feltcoop/gro/blob/main/src/adapt/gro-adapter-generic-build.ts',
+		'sveltekit-frontend':
+			'https://github.com/feltcoop/gro/blob/main/src/adapt/gro-adapter-sveltekit-frontend.ts',
+	},
+	plugin: {
+		'api-server': 'https://github.com/feltcoop/gro/blob/main/src/plugin/gro-plugin-api-server.ts',
+		'sveltekit-frontend':
+			'https://github.com/feltcoop/gro/blob/main/src/plugin/gro-plugin-sveltekit-frontend.ts',
+	},
+};

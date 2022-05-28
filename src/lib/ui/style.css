@@ -1,8 +1,5 @@
-:root {
-	/* TODO remove when published in Felt */
-	--brown_hue: 32;
-	--brown: hsl(var(--brown_hue), 100%, 22%);
-}
+/* :root {
+} */
 
 section {
 	margin: var(--spacing_xl2) 0;
@@ -21,4 +18,8 @@ th {
 th,
 td {
 	padding: var(--spacing_md);
+}
+
+tr:hover {
+	background-color: var(--interactive_color_hover);
 }

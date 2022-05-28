@@ -1,5 +1,9 @@
 <script lang="ts">
-	export let name: string;
+	import {urls, type Gro_Adapter_Name} from './project';
+
+	export let name: Gro_Adapter_Name;
+
+	$: url = urls.adapter[name];
 </script>
 
-<div>{name}</div>
+<a href={url}>{name}</a>

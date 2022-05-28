@@ -13,7 +13,7 @@
   "version": "0.0.1",
   "type": "module",
   "engines": {
-    "node": ">= 14.16.0"
+    "node": ">= 16.6"
   },
   "scripts": {
     "dev": "gro dev",
@@ -23,16 +23,29 @@
     "deploy": "gro deploy"
   },
   "devDependencies": {
-    "@feltcoop/felt": "^0.14.1",
-    "@feltcoop/gro": "^0.45.1",
-    "@sveltejs/adapter-static": "^1.0.0-next.21",
-    "@sveltejs/kit": "^1.0.0-next.201",
-    "prettier": "^2.5.1",
-    "prettier-plugin-svelte": "^2.5.0",
-    "svelte": "^3.44.2",
+    "@feltcoop/eslint-config": "^0.1.7",
+    "@feltcoop/felt": "^0.31.0",
+    "@feltcoop/gro": "^0.56.0",
+    "@sveltejs/adapter-static": "^1.0.0-next.32",
+    "@sveltejs/kit": "^1.0.0-next.345",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "prettier": "^2.6.2",
+    "prettier-plugin-svelte": "^2.7.0",
+    "svelte": "^3.48.0",
+    "svelte-check": "^2.7.1",
     "svelte-preprocess-esbuild": "^2.0.0",
-    "tslib": "^2.3.1",
-    "typescript": "4.4.x"
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "@feltcoop",
+    "ignorePatterns": [
+      "svelte.config.js"
+    ]
   },
   "prettier": {
     "useTabs": true,
@@ -40,7 +53,6 @@
     "singleQuote": true,
     "trailingComma": "all",
     "bracketSpacing": false,
-    "svelteBracketNewLine": true,
     "overrides": [
       {
         "files": "package.json",

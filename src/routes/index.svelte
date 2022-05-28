@@ -4,24 +4,38 @@
 </script>
 
 <main>
-	<header>
-		<h1>grogarden.org</h1>
-		<img src="/favicon.png" alt="oak acorn" />
-	</header>
-	<section>
-		<h2>official projects</h2>
-		<Projects_Table projects={official_projects} />
-	</section>
-	<section>
-		<h2>userland projects</h2>
-		<Projects_Table projects={userland_projects} />
-	</section>
-	<footer>
-		<a href="https://github.com/feltcoop/grogarden.org">🐙🐈/feltcoop/grogarden.org</a>
-	</footer>
+	<div class="column">
+		<header>
+			<h1>grogarden.org</h1>
+			<img src="/favicon.png" alt="oak acorn" />
+		</header>
+		<section>
+			<h2>official projects</h2>
+			<Projects_Table projects={official_projects} />
+		</section>
+		<section>
+			<h2>userland projects</h2>
+			<Projects_Table projects={userland_projects} />
+		</section>
+		<footer>
+			<a href="https://github.com/feltcoop/grogarden.org">🐙🐈/feltcoop/grogarden.org</a>
+		</footer>
+	</div>
 </main>
 
 <style>
+	main {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.column {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
 	header {
 		display: flex;
 		flex-direction: column;
@@ -56,6 +70,6 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin: var(--spacing_xl2) auto;
+		margin: var(--spacing_xl5) auto;
 	}
 </style>

@@ -1,5 +1,9 @@
 <script lang="ts">
-	export let name: string;
+	import {urls, type Gro_Plugin_Name} from '$lib/project';
+
+	export let name: Gro_Plugin_Name;
+
+	$: url = urls.plugin[name];
 </script>
 
-<div>{name}</div>
+<a href={url}>{name}</a>

@@ -9,13 +9,23 @@
 <tr>
 	<td><a href={project.repo}>{project.name}</a></td>
 	<td
-		>{#each project.adapters as adapter (adapter)}
-			<Adapter_Info name={adapter} />
-		{/each}</td
+		><ul>
+			{#each project.adapters as adapter (adapter)}
+				<li><Adapter_Info name={adapter} /></li>
+			{/each}
+		</ul></td
 	>
 	<td
-		>{#each project.plugins as plugin (plugin)}
-			<Plugin_Info name={plugin} />
-		{/each}</td
+		><ul>
+			{#each project.plugins as plugin (plugin)}
+				<li><Plugin_Info name={plugin} /></li>
+			{/each}
+		</ul></td
 	>
 </tr>
+
+<style>
+	li {
+		margin-right: var(--spacing_xl);
+	}
+</style>
