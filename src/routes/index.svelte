@@ -20,7 +20,7 @@
 		<hr />
 		<section>
 			<p>
-				Are you a Gro user with an open source project that you want to share? <a
+				Do you have an open source project using Gro that you want to share? <a
 					href="https://github.com/feltcoop/grogarden.org/pulls">Open a PR</a
 				>
 				with the data added to

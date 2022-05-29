@@ -2,7 +2,7 @@
 
 > meta project for the [Gro](https://github.com/feltcoop/gro) ecosystem
 
-Are you a Gro user with an open source project that you want to share?
+Do you have an open source project using Gro that you want to share?
 [Open a PR](https://github.com/feltcoop/grogarden.org/pulls)
 with the data added to [src/lib/projects.ts](/src/lib/projects.ts)!
 
